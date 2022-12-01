@@ -1,0 +1,16 @@
+rm(list = ls()) #oèisti sve varijable
+data=read.delim(file.choose()) #uèitavanje rezultata koje smo spremili kao .txt pod varijablu data
+attach(data) #naredba koja govori programu da æe varijabla data biti korištena
+str(data) #sadržaj varijable data
+names(data) #imena varijable data (u ovom sluèaju Visina, Dan, Biljka)
+#pazi! R je osjetljiv na mala i velika slova. Visina (veliko V) nije isto kao visina (malo V)
+
+install.packages("ggplot2") #insatliramo paket ggplot2 za vizualizaciju podataka. ovo moramo napraviti samo prvi puta kada koristimo R 
+library(ggplot2) #pozivamo komandu ggplo2 iz knjižnice
+data$Dan <- as.factor(data$Dan) #varijablu Dan pretvaramo u faktorsku kako bi mogli grupirati Visine po danima. 
+
+# Basic box plot
+ggplot(data, aes(x=Dan, y=Visina)) + 
+  geom_boxplot(outlier.colour="red", outlier.shape=8,
+               outlier.size=4) +
+   geom_dotplot(binaxis='y', stackdir='center', dotsize=0.5)
