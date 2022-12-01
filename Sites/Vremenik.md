@@ -1,2 +1,10 @@
-Vremenik:
-Rok za prijavu7.11.2021.Rok za slanje radova23.12.2021. – 23:59hObjava pozvanih učenika na Državni turnir mladih prirodoslovaca8.1.2022.9. hrvatski turnir mladih prirodoslovaca, Zagreb16.1.2022.Objava članova ekipe za IYNT23.1.2022.Prezentacija 2. problemaožujak 2022.Prezentacija 3. problemasvibanj 2022.IYNT – Almaty, Kazahstankolovoz 2022
+# Vremenik:
+
+| Rok za prijavu | 20.11.2022.|
+| Rok za slanje radova | 19.12.2022. – 23:59h |
+| Objava pozvanih učenika na Državni turnir mladih prirodoslovaca | 08.01.2022. |
+| 9. hrvatski turnir mladih prirodoslovaca, Zagreb | 14.01.2023.| 
+| Objava članova ekipe za IYNT | 23.01.2023. |
+| Prezentacija 2. problema | ožujak 2023. | 
+| Prezentacija 3. problema | svibanj 2023.| 
+| IYNT – Almaty, Kazahstan | kolovoz 2023 |
